@@ -9,6 +9,7 @@ public class UserInterface : MonoBehaviour
     [Space]
     [SerializeField] private Button sinFunctionButton;
     [SerializeField] private Button myFunctionButton;
+    [Space]
     [SerializeField] private float leftBorder;
     [SerializeField] private float rightBorder;
 
@@ -26,6 +27,9 @@ public class UserInterface : MonoBehaviour
 
     public void SinFunctionButton()
     {
+        sinFunctionButton.interactable = false;
+        myFunctionButton.interactable = true;
+
         ClearPlotChart(mainPlotChart);
         ClearPlotChart(errorPlotChart);
 
@@ -39,6 +43,9 @@ public class UserInterface : MonoBehaviour
     }
     public void MyFunctionButton()
     {
+        sinFunctionButton.interactable = true;
+        myFunctionButton.interactable = false;
+
         ClearPlotChart(mainPlotChart);
         ClearPlotChart(errorPlotChart);
 
