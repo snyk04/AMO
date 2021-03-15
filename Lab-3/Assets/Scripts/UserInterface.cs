@@ -1,11 +1,14 @@
 ﻿using AwesomeCharts;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UserInterface : MonoBehaviour
 {
     [SerializeField] private LineChart mainPlotChart;
     [SerializeField] private LineChart errorPlotChart;
     [Space]
+    [SerializeField] private Button sinFunctionButton;
+    [SerializeField] private Button myFunctionButton;
     [SerializeField] private float leftBorder;
     [SerializeField] private float rightBorder;
 
