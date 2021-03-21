@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Лабораторна робота №1</string>
+    <string name="first_page_text">Лінійний алгоритм</string>
+    <string name="second_page_text">Алгоритм, що розгалужується</string>
+    <string name="third_page_text">Циклічний алгоритм</string>
+    <string name="a_input">Введіть a</string>
+    <string name="b_input">Введіть b</string>
+    <string name="r_input">Введіть r</string>
+    <string name="g_input">Введіть g</string>
+    <string name="x_input">Введіть x</string>
+    <string name="n_input">Введіть n</string>
+    <string name="a_array_input">Введіть массив a розмiрнiстю n, через пробіл</string>
+    <string name="b_array_input">Введіть массив b розмiрнiстю n, через пробіл</string>
+    <string name="calculate_button">Порахувати</string>
+    <string name="info_button">Інформація</string>
+    <string name="next_page_button">▶</string>
+    <string name="prev_page_button">◀</string>
+    <string name="close_info_page_button">✖</string>
+    <string name="title_activity_info_page">InfoPage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
